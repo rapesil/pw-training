@@ -1,4 +1,4 @@
-# Screenpaly Pattern
+# Screenplay Pattern
 
 Aqui nesta pasta, criei um código simples de como implementar um teste no Playwright utilizando o Screenplay Pattern, uma alternativa ao modelo de Page Objects.
 
