@@ -16,13 +16,11 @@ const createUser = async (
 };
 
 type Actors = {
-    Andy: Actor;
-    Ute: Actor;
-    Armin: Actor;
+    Rafael: Actor;
 };
 
 export const test = base.extend<Actors>({
-    Andy: async ({ browser }, use) => {
+    Rafael: async ({ browser }, use) => {
         const Andy = await createUser(browser, 'Andy', `tomsmith`, `SuperSecretPassword!`);
         await use(Andy);
     },

@@ -13,7 +13,7 @@ const test = base.extend<{ todoPage: TodoPage }>({
   },
 });
 
-test('should add an item', async ({ todoPage, page }) => {
+test('should add an item', async ({ todoPage }) => {
   await todoPage.addToDo('my item');
 });
 
